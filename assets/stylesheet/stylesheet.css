@@ -32,12 +32,12 @@ body {
 
 .card {
   width: 85vw;
-  height: 90vh;
+  height: 65vh;
   transform-style: preserve-3d;
   transition: transform 1s;
 }
 #heart-sticker {
-  width: 250px;
+  width: 300px;
   animation-name: heart-beat;
   animation-duration: 2s;
   animation-iteration-count: infinite;
