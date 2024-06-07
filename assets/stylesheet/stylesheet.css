@@ -21,6 +21,11 @@
 @keyframes float {
   0% {
     transform: translateY(0px);
+    opacity: 0;
+  }
+
+  50% {
+    transform: translateY(-75px);
     opacity: 1;
   }
 
@@ -98,12 +103,16 @@ body {
 }
 
 .emojis {
+  font-size: 75px;
   position: absolute;
-  font-size: 70px;
+  transition: all 0.3s ease-in-out;
+  opacity: 0;
+}
+
+.emojis.float {
   animation-name: float;
-  animation-duration: 2s;
-  animation-timing-function: ease-in-out;
-  animation-iteration-count: infinite;
+  animation-duration: 1.75s;
+  animation-iteration-count: 1;
 }
 
 #emoji-1 {
