@@ -37,7 +37,7 @@ body {
   transition: transform 1s;
 }
 #heart-sticker {
-  width: 350px;
+  width: 300px;
   animation-name: heart-beat;
   animation-duration: 2s;
   animation-iteration-count: infinite;
