@@ -103,7 +103,7 @@ body {
 }
 
 .emojis {
-  font-size: 75px;
+  font-size: 60px;
   position: absolute;
   transition: all 0.3s ease-in-out;
   opacity: 0;
@@ -111,7 +111,7 @@ body {
 
 .emojis.float {
   animation-name: float;
-  animation-duration: 1.75s;
+  animation-duration: 2s;
   animation-iteration-count: 1;
 }
 
