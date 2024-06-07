@@ -18,6 +18,18 @@
   }
 }
 
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateY(-100px);
+    opacity: 0;
+  }
+}
+
 body {
   display: flex;
   justify-content: center;
@@ -88,60 +100,64 @@ body {
 .emojis {
   position: absolute;
   font-size: 70px;
+  animation-name: float;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
 }
 
 #emoji-1 {
-  top: 25vw;
+  top: 10vh;
   left: 10vw;
   rotate: -30deg;
 }
 
 #emoji-2 {
-  top: 65vw;
+  top: 12vh;
   right: 3vw;
   rotate: 65deg;
 }
 
 #emoji-3 {
-  top: 85vw;
+  top: 30vh;
   left: 2vw;
 }
 
 #emoji-4 {
-  top: 100vw;
+  top: 35vh;
   right: 2vw;
   rotate: -30deg;
 }
 
 #emoji-5 {
-  top: 130vw;
+  top: 50vh;
   left: 10vw;
   rotate: 65deg;
 }
 
 #emoji-6 {
-  top: 160vw;
+  top: 55vh;
   right: 10vw;
 }
 
 #emoji-7 {
-  top: 172vw;
+  top: 77vh;
   left: 5vw;
   rotate: -30deg;
 }
 
 #emoji-8 {
-  top: 15vw;
+  top: 80vh;
   right: 10vw;
   rotate: 65deg;
 }
 
 #emoji-9 {
-  top: 15vw;
+  top: 15vh;
   right: 35vw;
 }
 
 #emoji-10 {
-  top: 180vw;
+  top: 83vh;
   right: 35vw;
 }
