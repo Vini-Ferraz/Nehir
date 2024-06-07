@@ -84,3 +84,64 @@ body {
 .card.open {
   transform: rotateY(180deg);
 }
+
+.emojis {
+  position: absolute;
+  font-size: 70px;
+}
+
+#emoji-1 {
+  top: 25vw;
+  left: 10vw;
+  rotate: -30deg;
+}
+
+#emoji-2 {
+  top: 65vw;
+  right: 3vw;
+  rotate: 65deg;
+}
+
+#emoji-3 {
+  top: 85vw;
+  left: 2vw;
+}
+
+#emoji-4 {
+  top: 100vw;
+  right: 2vw;
+  rotate: -30deg;
+}
+
+#emoji-5 {
+  top: 130vw;
+  left: 10vw;
+  rotate: 65deg;
+}
+
+#emoji-6 {
+  top: 160vw;
+  right: 10vw;
+}
+
+#emoji-7 {
+  top: 172vw;
+  left: 5vw;
+  rotate: -30deg;
+}
+
+#emoji-8 {
+  top: 15vw;
+  right: 10vw;
+  rotate: 65deg;
+}
+
+#emoji-9 {
+  top: 15vw;
+  right: 35vw;
+}
+
+#emoji-10 {
+  top: 180vw;
+  right: 35vw;
+}
